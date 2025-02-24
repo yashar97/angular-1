@@ -1,0 +1,29 @@
+.portada {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/portada.jpg');
+    background-size: cover;
+}
+
+.bolita {
+    width: 12px;
+    height: 12px;
+    border-radius: 100%;
+}
+
+.rojo {
+    background-color: tomato;
+}
+
+.azul {
+    background-color: steelblue;
+}
+
+.blanco {
+    background-color: whitesmoke;
+}
+
+.asd {
+    width: 55%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
