@@ -3,3 +3,14 @@
     text-align: center;
 }
 
+.bg {
+    cursor: pointer;
+}
+
+.bg-reservado {
+    background-color: salmon;
+}
+
+.bg-seleccionado {
+    background-color: steelblue;
+}

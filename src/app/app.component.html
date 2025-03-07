@@ -87,8 +87,13 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <tr *ngFor="let hora of horario">
-                        <td class="text-center">{{hora}}</td>
+                    <tr *ngFor="let hora of horario; let i = index;">
+                        <td class="text-center">{{hora.horaInicio}}</td>
+                        <td (click)="marcar(i)" class="bg text-center"
+                            [ngClass]="hora.seleccionado ? 'bg-seleccionado' : ''">
+                            {{horario[i].horaInicio}} -
+                            {{horario[i].horaFin}}
+                        </td>
                     </tr>
                 </tbody>
             </table>
