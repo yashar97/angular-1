@@ -1,0 +1,22 @@
+.small {
+    width: 15%;
+    text-align: center;
+}
+
+.bg {
+    cursor: pointer;
+    background-color: #FFFADF;
+}
+
+.bg-amarillo {
+    background-color: #FFFADF;
+}
+
+.bg-reservado {
+    background-color: #F86569;
+}
+
+.bg-seleccionado {
+    background-color: #307bc6;
+    border-radius: 5px;
+}
